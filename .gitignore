@@ -1,0 +1,23 @@
+# System files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local temp/cache
+.mplcache/
+.mplconfig/
+.repair_out/
+~$*.docx
+*.bak
+*.backup
+
+# Large raw omics inputs are intentionally excluded
+*_quantification.txt
+methylation_epic.txt
+mrna_seq_*.txt
+protein_quantification*.txt
+mutations.txt
+clinical_patient.txt

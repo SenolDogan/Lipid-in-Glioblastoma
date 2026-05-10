@@ -1,0 +1,2 @@
+n_perm,observed_edges,perm_edges_mean,perm_edges_sd,perm_edges_max,empirical_p_perm_ge_obs
+200,1676,1.015,12.036158880764871,170,0.004975124378109453
