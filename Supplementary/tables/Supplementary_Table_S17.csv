@@ -1,0 +1,37 @@
+item,title,file
+Supplementary Table S1,Analysis-ready cohort and feature summary.,tables/Supplementary_Table_S01.csv
+Supplementary Table S2,"Cluster assignments for all 74 patients (k-means, hierarchical, and NMF subtypes) with vital status (Dead/Alive) at last follow-up.",tables/Supplementary_Table_S02.csv
+Supplementary Table S3,Bootstrap stability results.,tables/Supplementary_Table_S03.csv
+Supplementary Table S4,"Complete list of 1,676 significant lipid–metabolite correlations.",tables/Supplementary_Table_S04.csv
+Supplementary Table S5,Network statistics for the lipid–metabolite correlation network.,tables/Supplementary_Table_S05.csv
+Supplementary Table S6,Hub molecule analysis.,tables/Supplementary_Table_S06.csv
+Supplementary Table S7,Top 20 hub molecules.,tables/Supplementary_Table_S07.csv
+Supplementary Table S8,Novel/uncommon candidates prioritized from differential and network hub analyses.,tables/Supplementary_Table_S08.csv
+Supplementary Table S9,Complete list of differential features between subtypes.,tables/Supplementary_Table_S09.csv
+Supplementary Table S10,Detailed pathway enrichment results.,tables/Supplementary_Table_S10.csv
+Supplementary Table S11,PCA loadings for the first five principal components.,tables/Supplementary_Table_S11.csv
+Supplementary Table S12,Random Forest feature importance for subtype classification.,tables/Supplementary_Table_S12.csv
+Supplementary Table S13,Cross-validation results.,tables/Supplementary_Table_S13.csv
+Supplementary Table S14,Complete lipid-class versus metabolite-category correlation summary supporting Supplementary Figure S10.,tables/Supplementary_Table_S14.csv
+Supplementary Table S15,Lipid class abundances by patient.,tables/Supplementary_Table_S15.csv
+Supplementary Table S16,Metabolite category abundances by patient.,tables/Supplementary_Table_S16.csv
+Supplementary Table S17,File manifest for analysis-ready outputs and repository resources.,tables/Supplementary_Table_S17.csv
+Supplementary Table S18,External benchmarking output summary for Fontanilles et al. 2024.,tables/Supplementary_Table_S18.csv
+Supplementary Table S19,"Biological source inventory for all 581 CPTAC GBM lipid species (lipid class, VLCFA annotation, and literature-based context tags).",Supplementary_Table_19_Lipid_biological_source_inventory.xlsx
+Supplementary Table S20,Top subtype-discriminating lipid features.,tables/Supplementary_Table_S20.csv
+Supplementary Table S21,Subtype-specific lipid signatures and dual-purpose network hub lipids prioritized for follow-up.,tables/Supplementary_Table_S21.csv
+Supplementary Table S22,Significant correlations between lipid classes and metabolite categories.,tables/Supplementary_Table_S22.csv
+Supplementary Figure S1,Principal Component Analysis.,figures/Supplementary_Figure_S01.png
+Supplementary Figure S2,Combined visualization of key subtype-separating and network-based prioritization outputs used for candidate nomination and reuse.,figures/Supplementary_Figure_S02.png
+Supplementary Figure S3,Dual-purpose candidate lipids prioritized by combining subtype discrimination (effect size) with network centrality.,figures/Supplementary_Figure_S03.png
+Supplementary Figure S4,Metabolite category abundance by metabolic-lipidomic subtype.,figures/Supplementary_Figure_S04.png
+Supplementary Figure S5,Feature importance for survival time prediction (Random Forest regression).,figures/Supplementary_Figure_S05.png
+Supplementary Figure S6,Random Forest feature importance for metabolic-lipidomic subtype prediction.,figures/Supplementary_Figure_S06.png
+Supplementary Figure S7,Correlation matrix of top 20 statistically significant lipids and their correlations with metabolites.,figures/Supplementary_Figure_S07.png
+Supplementary Figure S8,Lipid–metabolite correlation network of the top 100 FDR-significant associations.,figures/Supplementary_Figure_S08.png
+Supplementary Figure S9,Lipid-class remodeling and direction of subtype-associated molecular features.,figures/Supplementary_Figure_S09.png
+Supplementary Figure S10,Correlation matrix between lipid classes and metabolite categories in GBM patients.,figures/Supplementary_Figure_S10.png
+Feature mapping,Display-name mapping for lipid and metabolite feature identifiers,Feature_Names_Mapping.xlsx
+Processed results,Analysis-ready CSV outputs used to build supplementary tables,results/
+External validation,Fontanilles et al. 2024 benchmarking outputs,external_validation/fontanilles_2024/
+Repository,Analysis code and processed outputs,https://github.com/SenolDogan/Lipid-in-Glioblastoma
