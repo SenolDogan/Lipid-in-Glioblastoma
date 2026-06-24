@@ -12,7 +12,7 @@ Supplementary Table S10,Detailed pathway enrichment results.,tables/Supplementar
 Supplementary Table S11,PCA loadings for the first five principal components.,tables/Supplementary_Table_S11.csv
 Supplementary Table S12,Random Forest feature importance for subtype classification.,tables/Supplementary_Table_S12.csv
 Supplementary Table S13,Cross-validation results.,tables/Supplementary_Table_S13.csv
-Supplementary Table S14,Complete lipid-class versus metabolite-category correlation summary supporting Supplementary Figure S10.,tables/Supplementary_Table_S14.csv
+Supplementary Table S14,Complete lipid-class versus metabolite-category correlation summary supporting Supplementary Figure S8.,tables/Supplementary_Table_S14.csv
 Supplementary Table S15,Lipid class abundances by patient.,tables/Supplementary_Table_S15.csv
 Supplementary Table S16,Metabolite category abundances by patient.,tables/Supplementary_Table_S16.csv
 Supplementary Table S17,File manifest for analysis-ready outputs and repository resources.,tables/Supplementary_Table_S17.csv
@@ -27,10 +27,8 @@ Supplementary Figure S3,Dual-purpose candidate lipids prioritized by combining s
 Supplementary Figure S4,Metabolite category abundance by metabolic-lipidomic subtype.,figures/Supplementary_Figure_S04.png
 Supplementary Figure S5,Feature importance for survival time prediction (Random Forest regression).,figures/Supplementary_Figure_S05.png
 Supplementary Figure S6,Random Forest feature importance for metabolic-lipidomic subtype prediction.,figures/Supplementary_Figure_S06.png
-Supplementary Figure S7,Correlation matrix of top 20 statistically significant lipids and their correlations with metabolites.,figures/Supplementary_Figure_S07.png
-Supplementary Figure S8,Lipid–metabolite correlation network of the top 100 FDR-significant associations.,figures/Supplementary_Figure_S08.png
-Supplementary Figure S9,Lipid-class remodeling and direction of subtype-associated molecular features.,figures/Supplementary_Figure_S09.png
-Supplementary Figure S10,Correlation matrix between lipid classes and metabolite categories in GBM patients.,figures/Supplementary_Figure_S10.png
+Supplementary Figure S7,Lipid-class remodeling and direction of subtype-associated molecular features.,figures/Supplementary_Figure_S07.png
+Supplementary Figure S8,Correlation matrix between lipid classes and metabolite categories in GBM patients.,figures/Supplementary_Figure_S08.png
 Feature mapping,Display-name mapping for lipid and metabolite feature identifiers,Feature_Names_Mapping.xlsx
 Processed results,Analysis-ready CSV outputs used to build supplementary tables,results/
 External validation,Fontanilles et al. 2024 benchmarking outputs,external_validation/fontanilles_2024/
