@@ -93,7 +93,7 @@ def main() -> int:
     ok &= check("Feature_Names_Mapping.xlsx exists", mapping.is_file())
 
     if ok:
-        print("\nAll checks passed. Release is consistent with the Data Descriptor.")
+        print("\nAll checks passed. Release is consistent with the manuscript.")
         return 0
 
     print("\nOne or more checks failed. See messages above.")

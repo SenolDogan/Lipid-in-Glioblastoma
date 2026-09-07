@@ -1,8 +1,9 @@
 # Lipid-in-Glioblastoma
 
-Harmonized, analysis-ready integrated lipidomics and metabolomics data for glioblastoma (GBM). This repository supports the *Scientific Data* Data Descriptor and is intended for **immediate reuse** without rebuilding preprocessing pipelines.
+Harmonized, analysis-ready integrated lipidomics and metabolomics data for glioblastoma (GBM). This repository supports the *Neuro-Oncology Advances* manuscript and is intended for **immediate reuse** without rebuilding preprocessing pipelines.
 
-**Manuscript:** `manuscript/LIPID.docx`  
+**Manuscript:** `manuscript/LIPID_Neuro_Oncology_Advances.docx`  
+**Journal:** *Neuro-Oncology Advances*  
 **Repository:** https://github.com/SenolDogan/Lipid-in-Glioblastoma
 
 ---
@@ -21,7 +22,7 @@ You do **not** need to read the manuscript first if you only want to verify or r
 
 ## 10-minute reviewer check
 
-Confirm that the repository is complete, readable, and consistent with the Data Descriptor **without** re-downloading CPTAC raw data.
+Confirm that the repository is complete, readable, and consistent with the manuscript **without** re-downloading CPTAC raw data.
 
 ### Step 0 — Requirements
 
@@ -121,7 +122,7 @@ These mirror the Data Overview in the manuscript.
 
 | Path | Description |
 |------|-------------|
-| `manuscript/` | Main manuscript (`LIPID.docx`) |
+| `manuscript/` | Main manuscript (`LIPID_Neuro_Oncology_Advances.docx`) |
 | `Supplementary/figures/` | Supplementary Figure S1–S8 (PNG) |
 | `Supplementary/tables/` | Supplementary Table S1–S22 (CSV) |
 | `Supplementary/Supplementary_Figures.docx` | All supplementary figures with captions and legends |
@@ -163,7 +164,7 @@ These mirror the Data Overview in the manuscript.
 
 Captions and legends: `Supplementary/Supplementary_Figures.docx`
 
-> **Note:** The correlation heatmap and network views that were previously archived as supplementary figures are now **Figure 3** in the main Data Descriptor.
+> **Note:** The correlation heatmap and network views that were previously archived as supplementary figures are now **Figure 3** in the main manuscript.
 
 ---
 
@@ -233,7 +234,7 @@ Re-running `scripts/lipidomics_metabolomics_analysis.py` from scratch requires:
 1. CPTAC/TCGA GBM raw matrices from [cBioPortal](https://www.cbioportal.org/study/summary?id=gbm_cptac_2021)
 2. Local path configuration in the analysis scripts (paths may need editing on your machine)
 
-For most users and reviewers, the **processed `results/` tables are the primary distribution**. Full re-analysis is not required to validate the Data Descriptor.
+For most users and reviewers, the **processed `results/` tables are the primary distribution**. Full re-analysis is not required to validate the manuscript.
 
 Additional scripts:
 
@@ -248,4 +249,4 @@ Fixed random seed: **42** (see manuscript Methods)
 
 ## Citation
 
-If you use this resource, please cite the Data Descriptor manuscript and this repository (Reference 39 in the manuscript).
+If you use this resource, please cite the *Neuro-Oncology Advances* manuscript and this repository.
